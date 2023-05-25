@@ -1,0 +1,460 @@
+* {
+    margin: 0px;
+}
+
+.bk-img {
+
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    position: relative;
+    z-index: 5;
+    transition: 1s ease;
+
+}
+
+body {
+    position: relative;
+    font-family: 'Source Sans Pro', sans-serif !important;
+    background-color: #f5f0ec !important;
+}
+
+.logo {
+    padding: 70px;
+    position: fixed;
+}
+
+.logo>img {
+    width: 110px;
+}
+
+.header-mail {
+    padding: 70px;
+    float: right;
+
+}
+
+
+.snakeLine {
+    width: 180px;
+    overflow: hidden;
+    background-image: url("img/zigzag\ line.png");
+    background-repeat: repeat-x;
+    height: 22px;
+    background-size: 300px;
+    background-position: 0px;
+    animation-iteration-count: infinite;
+
+}
+
+@keyframes moveline {
+    from {
+        background-position: 0px;
+    }
+
+    to {
+        background-position: 8999px;
+    }
+}
+
+.snakeLine:hover {
+    animation-name: moveline;
+    animation-duration: 99s;
+    transition: linear;
+
+
+}
+
+
+.snakeLine-w {
+    width: 180px;
+    overflow: hidden;
+    background-image: url("img/wav-w.png");
+    background-repeat: repeat-x;
+    height: 22px;
+    background-size: 300px;
+    background-position: 0px 100%;
+    animation-iteration-count: infinite;
+
+}
+
+@keyframes moveline-w {
+    from {
+        background-position: 0px 100%;
+    }
+
+    to {
+        background-position: 8999px 100%;
+    }
+}
+
+.snakeLine-w:hover {
+    animation-name: moveline;
+    animation-duration: 99s;
+    transition: linear;
+
+
+}
+
+
+.sec-1 {
+    clear: both
+}
+
+.sec-8 {
+    max-width: 100%;
+}
+
+.sec-1-txt {
+    font-size: 4.4rem;
+    font-weight: 300;
+    padding-bottom: 100vh;
+    max-width: 900px;
+}
+
+.sec-1-txt>img {
+    width: 40px;
+    transform: rotate(90deg);
+    margin-top: 30px;
+}
+
+.sec-2 {}
+
+.sec-2-txt {
+    height: 720px;
+    max-width: 1080px;
+    font-size: 2.6rem;
+    line-height: 2;
+    font-weight: 300;
+}
+
+.sec-3 {
+
+    background-color: white;
+    opacity: 0;
+    transition: 2s ease;
+
+}
+
+.sec-3-itembox {
+    padding: 0px 135px;
+}
+
+.sec-3>div img {
+    width: 100%;
+    height: auto;
+}
+
+.sec-3-heading {
+    font-size: 1.4rem;
+    margin-top: 25px;
+
+}
+
+.sec-3-txt {
+    font-size: 2rem;
+    font-weight: 100;
+    color: #b3b8b8;
+    width: 90%;
+}
+
+.sec3-btn {
+    width: 247px;
+    margin-top: 100px;
+    padding: 15px;
+    margin-bottom: 200px;
+    font-size: 29px;
+    position: relative;
+    z-index: 5;
+
+}
+
+.sec-3-itembox {
+    padding-bottom: 150px;
+    width: 100%;
+}
+
+.sec-3-itembox>div:hover>img {
+    transform-style: preserve-3d;
+    transition: transform 800ms ease 0s;
+    transform: translateX(0px) translateY(-15px) translateZ(0px);
+}
+
+
+
+.bio>img {
+    width: 100px;
+    color: white;
+}
+
+.bio {
+    background-image: url(img/bio.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    min-height: 100vh;
+    background-position: center center;
+    opacity: 0;
+    transition: 1s ease;
+    font-size: 1.6rem;
+    line-height: 3rem;
+    color: white;
+
+}
+
+
+.t-1 {
+    transition: 0.5s ease-in-out;
+    position: relative;
+}
+
+.t-2 {
+    transition: 0.5s ease-in-out;
+    position: relative;
+}
+
+/* 'font size and padding-left' for silimur content */
+.fs {
+    font-size: 2.7rem;
+    font-weight: 300;
+
+}
+
+.pl {
+    padding-left: 135px;
+}
+
+.white-logo>img {
+    width: 100%;
+    margin-bottom: 100px;
+}
+
+.white-logo {
+    width: 78px;
+}
+
+.studio-txt {
+    padding-bottom: 270px;
+}
+
+
+
+.gallery-box>img {
+    max-width: 490px;
+    height: 100%;
+
+}
+
+.reward-box>div {
+    padding: 0px;
+}
+
+.reward-box {
+    max-width: 100%;
+}
+
+.reward-box>div>img {
+    max-width: 95%;
+}
+
+.footer {
+    color: white;
+
+}
+
+.footer>.footer-txt {
+    color: white;
+    font-size: 3rem;
+    font-weight: 300;
+}
+
+.footer-links {
+    padding-top: 270px;
+}
+
+.footer-links>div>a {
+    font-size: 1.1rem;
+    color: white;
+
+}
+
+.footer-links>div>p {
+    font-size: 1.1rem;
+    color: white;
+}
+
+.vh-pd {
+    padding-top: 50vh;
+}
+
+.video-div {
+    opacity: 1;
+    position: fixed;
+
+
+    transition: 1s ease;
+    width: 100%;
+    height: 100vh;
+}
+
+.arrow-img {
+    left: 70px;
+    position: relative;
+    opacity: 0;
+    transition: 1s ease-in-out;
+}
+
+.btn {
+    transition: 1s ease-in-out;
+}
+
+.btn:hover {
+    transition: 1s ease-in-out;
+}
+
+.sec3-btn:hover .arrow-img {
+    transition: 1s ease-in-out;
+    left: 10px;
+    opacity: 1;
+}
+
+.sec-5-btn:hover .arrow-img {
+    transition: 1s ease-in-out;
+    left: 10px;
+    opacity: 1;
+}
+
+.sec5-btn2:hover .arrow-img {
+    transition: 1s ease-in-out;
+    left: 10px;
+    opacity: 1;
+}
+
+
+/* animation */
+
+@keyframes bounce {
+    0% {
+        bottom: 0;
+    }
+
+    50% {
+        bottom: 8px;
+    }
+
+    100% {
+        bottom: 0px;
+    }
+
+}
+
+.dot {
+    position: relative;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-name: bounce;
+    animation-timing-function: ease-in-out;
+    right: 10px;
+}
+
+.drop-d {
+
+    transition: .5s ease-in-out;
+    background: inherit;
+    top: 80%;
+    background: #fefefe;
+    opacity: 0;
+    height: 0px;
+    overflow: hidden;
+}
+
+.reward-box>div:hover .drop-d {
+    opacity: 1;
+    top: 100%;
+    height: 200px;
+    transition: .5s ease-in-out;
+
+}
+
+.header-mail>p {
+    font-size: 21px;
+}
+
+video {
+    width: 100%;
+}
+
+/*  responsive for mobile */
+
+@media screen and (width <=768px) {
+
+    .bio {
+        background-size: cover;
+    }
+
+    .bio-txt {
+        font-size: 18px;
+        line-height: 2;
+    }
+
+    .header-txt {
+        max-width: 572px;
+    }
+
+    .sec-1-txt {
+        font-size: 2.8rem;
+        padding-top: 30%;
+    }
+
+    .sec-2-txt {
+        font-size: 1.9rem;
+    }
+
+    .header-mail>p {
+        font-size: 18px;
+    }
+
+    .snakeLine {
+        width: 155px;
+
+    }
+
+    .header-mail {
+        padding: 60px 50px;
+    }
+
+    .logo {
+        padding: 60px 50px;
+    }
+
+    .logo>img {
+        width: 80px;
+    }
+
+    .sec-3-itembox {
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+
+    .pl {
+        padding-left: 50px;
+    }
+
+    .fs {
+        font-size: 1.8rem;
+    }
+
+    .footer>.footer-txt {
+        font-size: 2rem;
+    }
+
+    video {
+        width: initial;
+    }
+
+    .ft-txt {
+        font-size: 13px;
+    }
+
+
+}
