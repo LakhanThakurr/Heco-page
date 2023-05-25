@@ -330,6 +330,11 @@ body {
     opacity: 1;
 }
 
+.footer-links {
+    display: flex;
+    justify-content: space-around;
+}
+
 
 /* animation */
 
@@ -456,5 +461,142 @@ video {
         font-size: 13px;
     }
 
+
+}
+
+/* responsive for mobile */
+
+@media screen and (width<=600px) {
+
+    .logo {
+        padding: 25px 20px;
+    }
+
+    .header-mail {
+        padding: 25px 20px;
+    }
+
+    .header-mail>p {
+        font-size: 13px;
+    }
+
+    .snakeLine {
+        width: 111px;
+        background-size: 200px;
+    }
+
+    .sec-1-txt {
+        font-size: 30px;
+        max-width: 230px;
+    }
+
+    .sec-2-txt {
+        font-size: 22px;
+    }
+
+    .bk-img {
+        background-size: cover;
+    }
+
+    .sec-3-heading {
+        font-size: 16px;
+    }
+
+    .sec-3-txt {
+        font-size: 19px;
+        width: 75%;
+    }
+
+    .sec-3-itembox>div {
+        padding-bottom: 50px;
+
+    }
+
+    .sec-3-itembox {
+        padding-bottom: 0px;
+    }
+
+    .sec3-btn {
+        width: 185px;
+        margin-top: 88px;
+        padding: 10px;
+        margin-bottom: 200px;
+        font-size: 16px;
+
+    }
+
+    .bio {
+        background-image: url("img/bio-mobile-img.jpg");
+
+    }
+
+    .bio-txt {
+        font-size: 16px;
+    }
+
+    .fs {
+        font-size: 22px;
+    }
+
+    .sec-5-btn {
+        font-size: 16px !important;
+    }
+
+    .gallery-box>img {
+        max-width: 243px;
+    }
+
+    .gallery-box>div>img {
+        width: 243px !important;
+    }
+
+    .sec5-btn2 {
+        font-size: 15px !important;
+        padding: 12px 37px !important;
+    }
+
+    .pl-r {
+        padding-left: 50px;
+    }
+
+    .reward-box>div {
+        padding-bottom: 10px;
+    }
+
+    .footer>.footer-txt {
+        font-size: 24px;
+    }
+
+    .footer-links {
+        flex-direction: column;
+        justify-content: start;
+    }
+
+    
+
+    .ft-txt {
+        padding: 0px 10px;
+        font-size: 12px !important;
+    }
+
+    .footer-links>div>p {
+        font-size: 12px !important;
+        padding-left: 50px;
+    }
+
+    .footer-links>div>a {
+    font-size: 12px;
+    color: white;
+    padding-left: 50px;
+    padding-bottom: 20px;
+}
+
+.white-logo {
+    width: 131px;
+}
+.sec-5-btn >span{
+    display: none;
+}
+    
 
 }
