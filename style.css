@@ -393,9 +393,9 @@ video {
     width: 100%;
 }
 
-/*  responsive for mobile */
+/*  responsive for tabview */
 
-@media screen and (width <=900px) and (orientation: landscape) {
+@media screen and (width <=900px){
 
     .bio {
         background-size: cover;
@@ -475,6 +475,7 @@ video {
 
 
 }
+
 
 /* responsive for mobile */
 
