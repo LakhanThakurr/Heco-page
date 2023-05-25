@@ -441,6 +441,14 @@ video {
         padding-right: 25px;
     }
 
+    .gallery-box>img {
+        max-width: 243px;
+    }
+
+    .gallery-box>div>img {
+        width: 243px !important;
+    }
+    
     .pl {
         padding-left: 50px;
     }
