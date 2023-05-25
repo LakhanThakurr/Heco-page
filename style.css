@@ -386,7 +386,7 @@ video {
 
 /*  responsive for mobile */
 
-@media screen and (width <=768px) {
+@media screen and (width <=900px) {
 
     .bio {
         background-size: cover;
