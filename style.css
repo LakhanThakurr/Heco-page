@@ -20,6 +20,10 @@ body {
     background-color: #f5f0ec !important;
 }
 
+.main{
+
+}
+
 .logo {
     padding: 70px;
     position: fixed;
@@ -391,7 +395,7 @@ video {
 
 /*  responsive for mobile */
 
-@media screen and (width <=900px) {
+@media screen and (width <=900px) and (orientation: landscape) {
 
     .bio {
         background-size: cover;
@@ -448,7 +452,7 @@ video {
     .gallery-box>div>img {
         width: 243px !important;
     }
-    
+
     .pl {
         padding-left: 50px;
     }
@@ -580,7 +584,7 @@ video {
         justify-content: start;
     }
 
-    
+
 
     .ft-txt {
         padding: 0px 10px;
@@ -593,18 +597,19 @@ video {
     }
 
     .footer-links>div>a {
-    font-size: 12px;
-    color: white;
-    padding-left: 50px;
-    padding-bottom: 20px;
-}
+        font-size: 12px;
+        color: white;
+        padding-left: 50px;
+        padding-bottom: 20px;
+    }
 
-.white-logo {
-    width: 131px;
-}
-.sec-5-btn >span{
-    display: none;
-}
-    
+    .white-logo {
+        width: 131px;
+    }
+
+    .sec-5-btn>span {
+        display: none;
+    }
+
 
 }
